@@ -8,4 +8,5 @@ $baseDir = dirname($vendorDir);
 return array(
     'Symfony\\Component\\Process\\' => array($vendorDir . '/symfony/process'),
     'Facebook\\WebDriver\\' => array($vendorDir . '/facebook/webdriver/lib'),
+    'Dotenv\\' => array($vendorDir . '/vlucas/phpdotenv/src'),
 );

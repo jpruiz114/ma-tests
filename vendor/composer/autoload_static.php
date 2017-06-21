@@ -15,6 +15,10 @@ class ComposerStaticInitbd6b0357efc6cdbf37c72ce67e455640
         array (
             'Facebook\\WebDriver\\' => 19,
         ),
+        'D' => 
+        array (
+            'Dotenv\\' => 7,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -25,6 +29,10 @@ class ComposerStaticInitbd6b0357efc6cdbf37c72ce67e455640
         'Facebook\\WebDriver\\' => 
         array (
             0 => __DIR__ . '/..' . '/facebook/webdriver/lib',
+        ),
+        'Dotenv\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/vlucas/phpdotenv/src',
         ),
     );
 
